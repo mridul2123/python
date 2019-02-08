@@ -1,3 +1,5 @@
+# This script is connecting with the AWS account and creating an Auto-Scaling group along with setting threshold for Average CPU Utilization and scaling up/down instances accordingly.
+
 # importing all the required modules
 import boto
 import boto.ec2.cloudwatch
